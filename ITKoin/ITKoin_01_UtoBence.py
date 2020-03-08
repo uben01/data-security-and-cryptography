@@ -89,7 +89,7 @@ class ITKoin:
         signaturevalue = b64decode(b64signaturevalue)  # dekódold base64 kódolással az aláírás értéket
 
         try:
-            verifyobject.verify(hashobject, signaturevalue+1)
+            verifyobject.verify(hashobject, signaturevalue)
             validsignature = True
         except ValueError:
             signatureerror =  "Invalid signature" # ellenőrizd az aláírást
