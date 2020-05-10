@@ -236,16 +236,16 @@ class ITKoin:
 
 
 mycoin=ITKoin()
-# mycoin.generate_rsa_key('csmkey_04')
-mycoin.generate_first_block()
-mycoin.load_my_private_key()
-mycoin.load_chain()
-mycoin.find_unspent_outputs()
-mycoin.new_transaction(20, 'c5425eda6099b4f481357fb12d17cda62e6f391ac49c83e9d465128dc47109b0')
+#mycoin.generate_rsa_key('csmkey_03')
+#mycoin.generate_first_block()
+#mycoin.load_my_private_key()
+#mycoin.load_chain()
+#mycoin.find_unspent_outputs()
+#mycoin.new_transaction(20, 'c5425eda6099b4f481357fb12d17cda62e6f391ac49c83e9d465128dc47109b0')
 #signature = mycoin.create_signature(2)
 #pprint(signature)
 #pprint(mycoin.my_publickey)
 #print(mycoin.verify_signature(2, signature, mycoin.my_publickey))
 
-mycoin.mine()
+#mycoin.mine()
 
